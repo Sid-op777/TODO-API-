@@ -1,0 +1,92 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+*.stackdump
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.7z
+
+# Spring files
+/bin/
+/tmp/
+
+# Native library linking
+*.lib
+*.so
+*.dll
+
+# Maven related
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# H2 Database files (if you're not committing the database)
+*.mv.db
+*.trace.db
+*.lock.db
+
+#HSQLDB
+*.lck
+
+#FreeMarker
+*.flt
+
+#Backup files
+*~
+*.swp
+*.bak
+*.tmp
+*.orig
+
+#Editor Files
+*.eswp
+
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea/
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+### VS Code ###
+.vscode/
