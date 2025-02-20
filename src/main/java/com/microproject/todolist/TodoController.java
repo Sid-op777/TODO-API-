@@ -23,6 +23,7 @@ public class TodoController {
     private final TodoService todoService;
 
     @Autowired
+    //injects todoService automatically in the todoController
     public TodoController(TodoService todoService) {
         this.todoService = todoService;
     }
